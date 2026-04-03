@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — Mystic Connections</title>
+    <meta name="description" content="Contact Mystic Connections — address, hours, and form." />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"><img src="assets/logo.svg" alt="Mystic Connections logo"/></a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+          <a href="products.html">Shop</a>
+          <a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Contact</h1>
+      <div class="contact-grid">
+        <form class="contact-form" action="#" method="post">
+          <label>Name<input name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <label>Reason<select name="reason"><option>General</option><option>Pickup</option><option>Workshop</option></select></label>
+          <p><button class="btn primary" type="submit">Send Message</button></p>
+        </form>
+
+        <aside>
+          <h2>Visit</h2>
+          <address>
+            123 Crystal Way<br />Your City, ST<br />
+          </address>
+          <p>Hours: Tue–Sun 11am–6pm</p>
+          <p>Phone: (555) 555-5555</p>
+          <h3>Map</h3>
+          <div class="map-placeholder">[Map embed]</div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">© Mystic Connections</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

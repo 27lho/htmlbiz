@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shop — Mystic Connections</title>
+    <meta name="description" content="Shop crystals, herbs, incense and more." />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"><img src="assets/logo.svg" alt="Mystic Connections logo"/></a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+          <a href="products.html">Shop</a>
+          <a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Shop</h1>
+      <p class="lead">Browse by category or view all items.</p>
+
+      <div class="shop-controls">
+        <div class="category-tabs">
+          <button data-cat="all" class="cat btn active">All</button>
+          <button data-cat="tumbles" class="cat btn">Tumbles</button>
+          <button data-cat="spheres" class="cat btn">Spheres</button>
+          <button data-cat="carvings" class="cat btn">Carvings</button>
+          <button data-cat="specimens" class="cat btn">Specimens</button>
+          <button data-cat="herbs" class="cat btn">Herbs</button>
+          <button data-cat="incense" class="cat btn">Incense</button>
+          <button data-cat="other" class="cat btn">Other</button>
+        </div>
+      </div>
+
+      <div id="products" class="product-grid" aria-live="polite"></div>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">© Mystic Connections</div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
