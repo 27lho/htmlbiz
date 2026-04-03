@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#f3eefb"/>
+  <circle cx="300" cy="200" r="120" fill="#e9defb" stroke="#cdb7ff" stroke-width="6"/>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" fill="#4b2e83" font-size="24">Crystal Photo</text>
+</svg>

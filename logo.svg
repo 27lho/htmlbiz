@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Mystic Connections</title>
+  <desc id="logoDesc">Mystic Connections logo in Playfair Display and Montserrat with warm gold accent</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b37a3a"/>
+      <stop offset="100%" stop-color="#7c4d2f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8,8)">
+    <text x="0" y="36" font-family="Playfair Display, serif" font-size="36" fill="#7c4d2f" font-weight="600">MYSTIC</text>
+    <text x="0" y="64" font-family="Montserrat, sans-serif" font-size="14" fill="#b37a3a" letter-spacing="2">CONNECTIONS</text>
+    <g transform="translate(320,6) scale(0.9)">
+      <polygon points="12,0 18,10 12,56 6,10" fill="url(#g)" stroke="#7c4d2f" stroke-width="1"/>
+      <polygon points="6,10 12,56 18,10 12,20" fill="#fff" opacity="0.06"/>
+    </g>
+  </g>
+</svg>
