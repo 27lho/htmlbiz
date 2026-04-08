@@ -1,15 +1,15 @@
 // Client-side product data and cart handling
 (function(){
   const PRODUCTS = [
-    {id:'p1',name:'March Birthstone Tumble',category:'tumbles',price:18.00,img:'assets/3_MarchBirthstone-Dropdown.jpg'},
-    {id:'p2',name:'Green Aventurine Worry Stone',category:'tumbles',price:14.00,img:'assets/Green-aventurine-Dont-you-worry-stone-S0378GAV.jpg'},
-    {id:'p3',name:'Serpentine Toadstool Carving',category:'carvings',price:48.00,img:'assets/Serpentine-Toadstool-Mushroom-Standing-Gemstone-LNS0542.jpg'},
-    {id:'p4',name:'Dual Frequency Amethyst Tower',category:'specimens',price:86.00,img:'assets/Dual-Frequency-Amethyst-Clear-Quartz-Tower-LNS0023A.jpg'},
-    {id:'p5',name:'Sunny Side Up Banded Calcite Tower',category:'specimens',price:46.00,img:'assets/Sunny-Side-Up-Banded-Calcite-Mini-Gemstone-Tower-LNS0397B.jpg'},
-    {id:'p6',name:'Crystal Voltage Quartz Tower',category:'specimens',price:52.00,img:'assets/Crystal-Voltage-Quartz-Mini-Gemstone-Tower-LNS0036.jpg'},
-    {id:'p7',name:'Bloom Within Blossom Agate Tower',category:'specimens',price:64.00,img:'assets/Bloom-Within-Blossom-Agate-Mini-Gemstone-Tower-LNS0349C.jpg'},
-    {id:'p8',name:'Clear Quartz Mini Cluster',category:'other',price:32.00,img:'assets/LNS0030CLR-2.jpg'},
-    {id:'p9',name:'Mystic Curio Special',category:'other',price:28.00,img:'assets/LNS0721.jpg'}
+    {id:'p1',name:'March Birthstone Tumble',category:'tumbles',price:18.00,img:'/htmlbiz/assets/3_MarchBirthstone-Dropdown.jpg'},
+    {id:'p2',name:'March Birthstone Variant',category:'tumbles',price:16.00,img:'/htmlbiz/assets/3_MarchBirthstone-Dropdown.jpg'},
+    {id:'p3',name:'Serpentine Toadstool Carving',category:'carvings',price:48.00,img:'/htmlbiz/assets/Serpentine-Toadstool-Mushroom-Standing-Gemstone-LNS0542.jpg'},
+    {id:'p4',name:'Dual Frequency Amethyst Tower',category:'specimens',price:86.00,img:'/htmlbiz/assets/Dual-Frequency-Amethyst-Clear-Quartz-Tower-LNS0023A.jpg'},
+    {id:'p5',name:'Sunny Side Up Banded Calcite Tower',category:'specimens',price:46.00,img:'/htmlbiz/assets/Sunny-Side-Up-Banded-Calcite-Mini-Gemstone-Tower-LNS0397B.jpg'},
+    {id:'p6',name:'Crystal Voltage Quartz Tower',category:'specimens',price:52.00,img:'/htmlbiz/assets/Crystal-Voltage-Quartz-Mini-Gemstone-Tower-LNS0036.jpg'},
+    {id:'p7',name:'Bloom Within Blossom Agate Tower',category:'specimens',price:64.00,img:'/htmlbiz/assets/Bloom-Within-Blossom-Agate-Mini-Gemstone-Tower-LNS0349C.jpg'},
+    {id:'p8',name:'Clear Quartz Mini Cluster',category:'other',price:32.00,img:'/htmlbiz/assets/LNS0030CLR-2.jpg'},
+    {id:'p9',name:'Mystic Curio Special',category:'other',price:28.00,img:'/htmlbiz/assets/LNS0721.jpg'}
   ];
 
   function getCart(){
